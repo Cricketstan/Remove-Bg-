@@ -1,0 +1,11 @@
+name = "bg-remover-api"
+main = "src/index.js"
+compatibility_date = "2023-05-18"
+
+[build]
+upload.format = "modules"
+upload.main = "./src/index.js"
+
+[[build.upload.rules]]
+type = "ESModule"
+globs = ["**/*.js"]
